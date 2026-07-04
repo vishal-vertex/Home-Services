@@ -1,0 +1,53 @@
+
+.service-signup-input {
+  
+  width: 300px;
+  height: 40px;
+  padding: 1px 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  background: rgba(255, 255, 255, 0.1);
+  color: #ffffff;
+}
+
+.glassmorphism {
+    margin-top: 7%;
+  display: flex;
+  flex-direction: column;
+  /* Safari support */
+  
+  padding: 40px;
+  border-radius: 15px;
+  border: 1px solid rgba(255, 255, 255, 0.3); /* subtle border */
+  box-shadow: 0 8px 32px rgba(221, 0, 0, 0.2);
+  
+  height: auto;
+}
+
+.service-signup-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  justify-content: center;
+
+  /* Glassmorphism core styles */
+  background: rgba(255, 255, 255, 0.1); /* translucent */
+  backdrop-filter: blur(15px);          /* frosted glass blur */
+  -webkit-backdrop-filter: blur(15px);  /* Safari support */
+  
+  padding: 40px;
+  height: auto;
+  border-radius: 15px;
+  border: 1px solid rgba(255, 255, 255, 0.3); /* subtle border */
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+  
+}
+
+.Outercontainer {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+ 
+  
+}
